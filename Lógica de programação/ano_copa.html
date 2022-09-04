@@ -1,0 +1,27 @@
+<script>
+
+    function pulaLinha(linhas) {
+        for (let index = 0; index < linhas; index++) {
+            document.write("<br>");
+        }
+    }
+
+    function mostra(texto, linha) {
+        document.write(`<big>${texto}</big>`);
+        pulaLinha(linha);
+    }  
+
+    let dataLimite = parseInt(prompt("Qual a data limite?"))
+    var anoCopa = 1930;
+
+    while(anoCopa <= dataLimite) {
+
+        mostra("Teve copa em " + anoCopa);
+        pulaLinha(1)
+        anoCopa = anoCopa + 4;
+
+    }
+
+    mostra("FIM");
+</script>
+

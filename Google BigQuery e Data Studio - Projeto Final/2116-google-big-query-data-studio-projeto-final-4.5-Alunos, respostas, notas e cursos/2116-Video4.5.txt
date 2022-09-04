@@ -1,0 +1,20 @@
+SELECT aluno.nome AS NOME_ALUNO, curso.nome AS NOME_CURSO, curso.periodo_id AS PERIODO,
+curso.semestre AS SEMESTRE, curso.ano AS ANO, curso.preco AS PRECO,
+nota.nota as NOTA 
+FROM `projeto-final-bq-ds-314501.BitbyteDW.aluno` aluno
+INNER JOIN `projeto-final-bq-ds-314501.BitbyteDW.resposta` resposta
+ON aluno.id = resposta.aluno_id
+INNER JOIN `projeto-final-bq-ds-314501.BitbyteDW.nota` nota
+ON resposta.id = nota.resposta_id AND resposta.periodo_id = nota.periodo_id
+INNER JOIN `projeto-final-bq-ds-314501.BitbyteDW.exercicio` exercicio 
+ON exercicio.id = resposta.exercicio_id AND exercicio.periodo_id = resposta.periodo_id
+INNER JOIN `projeto-final-bq-ds-314501.BitbyteDW.secao` secao
+ON secao.id = exercicio.secao_id AND secao.periodo_id = exercicio.periodo_id
+INNER JOIN `projeto-final-bq-ds-314501.BitbyteDW.curso` curso 
+ON curso.id = secao.curso_id AND curso.periodo_id = secao.periodo_id
+WHERE resposta.periodo_id = '2010.1' AND nota.periodo_id = '2010.1'
+AND exercicio.periodo_id = '2010.1' AND secao.periodo_id = '2010.1'
+AND curso.periodo_id = '2010.1';
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTgzMTczMDY0N119
+-->

@@ -1,0 +1,9 @@
+SELECT aluno.nome AS NOME_ALUNO, nota.nota as NOTA FROM `projeto-final-bq-ds-314501.BitbyteDW.aluno` aluno
+INNER JOIN `projeto-final-bq-ds-314501.BitbyteDW.resposta` resposta
+ON aluno.id = resposta.aluno_id
+INNER JOIN `projeto-final-bq-ds-314501.BitbyteDW.nota` nota
+ON resposta.id = nota.resposta_id AND resposta.periodo_id = nota.periodo_id
+WHERE resposta.periodo_id = '2010.1' AND nota.periodo_id = '2010.1';
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTMyNTg5ODIwMl19
+-->

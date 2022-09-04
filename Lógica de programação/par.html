@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(linhas) {
+
+        for (let index = 0; index < linhas; index++) {
+            document.write("<br>");
+        }
+    }
+
+    function mostra(texto, linha) {
+        document.write(`<big>${texto}</big>`);
+        pulaLinha(linha);
+    }  
+
+    function imc() {
+        let peso = prompt("Digite o seu peso em Kg:")
+        let altura = prompt("Digite a sua altura em metros:")
+        return peso/(altura*altura)
+    }
+    
+    function numeros(limiteInferior, limiteSuperior) {
+        // let limiteSuperior = 20;
+        while (limiteSuperior >= limiteInferior) {
+            if (true) {
+                mostra(limiteSuperior, 1);
+            }
+            limiteSuperior -= 1;
+        }     
+    }
+
+    numeros(0, 20)
+</script>

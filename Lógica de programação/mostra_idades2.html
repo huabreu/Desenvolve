@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(linhas) {
+
+        for (let index = 0; index < linhas; index++) {
+            document.write("<br>");
+            document.write("<hr>");
+            
+        }
+    
+    }
+
+    function mostra(texto, linha) {
+        document.write(`<big>${texto}</big>`);
+        pulaLinha(linha);
+    }  
+
+    var ano = 2021;
+    mostra(("Eu nasci em : " + (ano - 29)), 2);
+    mostra(("Adriano nasceu em : " + (ano - 26)), 2);
+    mostra(("Paulo nasceu em : " + (ano - 32)), 2);
+
+</script>

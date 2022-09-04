@@ -1,0 +1,47 @@
+Query filtrando a fabrica
+
+SELECT * FROM `feisty-outrider-294803.sucos.view_data_studio_mysql` 
+WHERE Desc_Fabrica = 'FAbrica de Sao Paulo';
+
+SELECT * FROM `feisty-outrider-294803.sucos.view_data_studio_mysql` 
+WHERE Desc_Fabrica = 'FAbrica do Rio de Janeiro';
+
+NOVAS METRICAS
+
+Lucro em R$ = Faturamento - Custo_Variavel - Custo_Frete - Custo_Fixo - Imposto
+Mes Calendario = MONTH(Data)
+Mes Calendario Formula = 
+
+CASE WHEN Nome_Mes = 'Janeiro' THEN '01'
+WHEN Nome_Mes = 'Fevereiro' THEN '02'
+WHEN Nome_Mes = 'Marco' THEN '03'
+WHEN Nome_Mes = 'Abril' THEN '04'
+WHEN Nome_Mes = 'Maio' THEN '05'
+WHEN Nome_Mes = 'Junho' THEN '06'
+WHEN Nome_Mes = 'Julho' THEN '07'
+WHEN Nome_Mes = 'Agosto' THEN '08'
+WHEN Nome_Mes = 'Setembro' THEN '09'
+WHEN Nome_Mes = 'Outubro' THEN '10'
+WHEN Nome_Mes = 'Novembro' THEN '11'
+ELSE '12' END
+
+NOTA LUCRO (VALOR CONSTANTE)
+
+CASE WHEN Percentual Lucro / Faturamento <=  0.28 THEN 1
+WHEN Percentual Lucro / Faturamento > 0.28 AND Percentual Lucro / Faturamento <= 0.31 THEN 2
+ELSE 3 END
+
+NOTA LUCRO (USANDO PARAMETRO)
+
+CASE WHEN Percentual Lucro / Faturamento <=  Limite Inferior THEN 1
+WHEN Percentual Lucro / Faturamento > Limite Superior AND Percentual Lucro / Faturamento <= Limite Superior THEN 2
+ELSE 3 END
+
+PERCENTUAL LUCRO / FATURAMENTO
+
+sum(Lucro em R$)/sum(Faturamento)
+
+CONSULTA ORIGEM DE DADOS:
+
+SELECT * FROM `feisty-outrider-294803.sucos.view_data_studio_mysql` 
+WHERE Desc_Fabrica = @Fabrica;

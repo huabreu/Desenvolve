@@ -1,0 +1,15 @@
+select dim_cliente.Desc_Cliente, dim_cliente.Desc_Cidade,  dim_cliente.Desc_Estado, dim_cliente.Cod_Estado, 
+dim_cliente.Desc_Segmento, 
+dim_fabrica.Desc_Fabrica,
+dim_organizacional.Desc_Vendedor, dim_organizacional.Desc_Gerente, dim_organizacional.Desc_Diretor, 
+dim_produto.Desc_Produto, dim_produto.Desc_Marca, dim_produto.Desc_Categoria, dim_produto.Atr_Tamanho, dim_produto.Atr_Sabor,
+dim_tempo.Data, dim_tempo.Nome_Mes, dim_tempo.Nome_Trimestre, dim_tempo.Nome_Semestre, dim_tempo.Numero_Ano,
+fato_presidencia.Faturamento, fato_presidencia.Unidade_Vendida, fato_presidencia.Quantidade_Vendida,
+fato_presidencia.Imposto, fato_presidencia.Custo_Variavel, fato_presidencia.Custo_Frete, fato_presidencia.Custo_Fixo, 
+fato_presidencia.Meta_Faturamento, fato_presidencia.Meta_Custo 
+from fato_presidencia
+INNER JOIN dim_tempo ON dim_tempo.ID_Tempo = fato_presidencia.ID_Tempo
+INNER JOIN dim_cliente ON dim_cliente.ID_Cliente = fato_presidencia.ID_Cliente
+INNER JOIN dim_organizacional ON dim_organizacional.ID_Vendedor = fato_presidencia.ID_Vendedor
+INNER JOIN dim_produto ON dim_produto.ID_Produto = fato_presidencia.ID_Produto
+INNER JOIN dim_fabrica ON dim_fabrica.ID_Fabrica = fato_presidencia.ID_Fabrica

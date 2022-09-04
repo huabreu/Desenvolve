@@ -1,0 +1,58 @@
+ID_Cliente,Cod_Cliente,Desc_Cliente,Cod_Cidade,Desc_Cidade,Cod_Estado,Desc_Estado,Cod_Regiao,Desc_Regiao,Cod_Segmento,Desc_Segmento
+1,10493761705,Rede Nacional Postos Porto Alegre,Porto Alegre,Porto Alegre,RS,Rio Grande do Sul,Sul,Sul,Lojas de Conveniencia,Lojas de Conveniencia
+2,10760990760,Rede Nacional Postos Goiais,Goiais,Goiais,GO,Goiais,Centro Oeste,Centro Oeste,Lojas de Conveniencia,Lojas de Conveniencia
+3,11504339738,Rede Posto Mania Campinas,Campinas,Campinas,SP,Sao Paulo,Sudeste,Sudeste,Lojas de Conveniencia,Lojas de Conveniencia
+4,12805717724,Supermercados Bom e Barato Goiais,Goiais,Goiais,GO,Goiais,Centro Oeste,Centro Oeste,Supermercados,Supermercados
+5,13332132717,Rede Drogas Brasil Belo Horizonte,Belo Horizonte,Belo Horizonte,MG,Minas Gerais,Sudeste,Sudeste,FarmAcias,FarmAcias
+6,2078365742,Rede Drogas Brasil Goiais,Goiais,Goiais,GO,Goiais,Centro Oeste,Centro Oeste,FarmAcias,FarmAcias
+7,2373471728,Big Balada Sucos Sao Paulo,Sao Paulo,Sao Paulo,SP,Sao Paulo,Sudeste,Sudeste,Lanchonetes,Lanchonetes
+8,2379494746,Tem de Tudo Supermercados Goiais,Goiais,Goiais,GO,Goiais,Centro Oeste,Centro Oeste,Supermercados,Supermercados
+9,25198076600,Lanches Up Belo Horizonte,Belo Horizonte,Belo Horizonte,MG,Minas Gerais,Sudeste,Sudeste,Lanchonetes,Lanchonetes
+10,2930317701,Rede Posto Mania Belo Horizonte,Belo Horizonte,Belo Horizonte,MG,Minas Gerais,Sudeste,Sudeste,Lojas de Conveniencia,Lojas de Conveniencia
+11,29863333700,Rede Drogas Brasil Campinas,Campinas,Campinas,SP,Sao Paulo,Sudeste,Sudeste,FarmAcias,FarmAcias
+12,3040980351,Fast Lanches Campo Grande,Campo Grande,Campo Grande,MS,Mato Grosso do Sul,Centro Oeste,Centro Oeste,Lanchonetes,Lanchonetes
+13,30780411749,Super Mania Rio de Janeiro,Rio de Janeiro,Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,Sudeste,Lanchonetes,Lanchonetes
+14,31292046791,Rede Posto Mania Goiais,Goiais,Goiais,GO,Goiais,Centro Oeste,Centro Oeste,Lojas de Conveniencia,Lojas de Conveniencia
+15,33726329749,Rainha Supermercados Campo Grande,Campo Grande,Campo Grande,MS,Mato Grosso do Sul,Centro Oeste,Centro Oeste,Supermercados,Supermercados
+16,3759651739,BIG Burger Brasilia,Brasilia,Brasilia,DF,Distrito Federal,Centro Oeste,Centro Oeste,Lanchonetes,Lanchonetes
+17,3760238300,Supermercados Bom e Barato Curitiba,Curitiba,Curitiba,PR,ParanA,Sul,Sul,Supermercados,Supermercados
+18,38496275787,Rede Posto Mania Rio de Janeiro,Rio de Janeiro,Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,Sudeste,Lojas de Conveniencia,Lojas de Conveniencia
+19,43390129715,Max Drogas Porto Alegre,Porto Alegre,Porto Alegre,RS,Rio Grande do Sul,Sul,Sul,FarmAcias,FarmAcias
+20,44257562749,BIG Burger Goiais,Goiais,Goiais,GO,Goiais,Centro Oeste,Centro Oeste,Lanchonetes,Lanchonetes
+21,44646550768,Posto Aurora Santos,Santos,Santos,SP,Sao Paulo,Sudeste,Sudeste,Lojas de Conveniencia,Lojas de Conveniencia
+22,46118837449,Rede Nacional Postos Belo Horizonte,Belo Horizonte,Belo Horizonte,MG,Minas Gerais,Sudeste,Sudeste,Lojas de Conveniencia,Lojas de Conveniencia
+23,46619968791,Rede Nacional Postos Campo Grande,Campo Grande,Campo Grande,MS,Mato Grosso do Sul,Centro Oeste,Centro Oeste,Lojas de Conveniencia,Lojas de Conveniencia
+24,47268018720,Crepes da Chapa Goiais,Goiais,Goiais,GO,Goiais,Centro Oeste,Centro Oeste,Lanchonetes,Lanchonetes
+25,49609165753,Rede Nacional Postos Curitiba,Curitiba,Curitiba,PR,ParanA,Sul,Sul,Lojas de Conveniencia,Lojas de Conveniencia
+26,5194978723,Drogarias Santa Efigenia Curitiba,Curitiba,Curitiba,PR,ParanA,Sul,Sul,FarmAcias,FarmAcias
+27,5427963766,Tem de Tudo Lojas Sao Paulo,Sao Paulo,Sao Paulo,SP,Sao Paulo,Sudeste,Sudeste,Lojas de Conveniencia,Lojas de Conveniencia
+28,621950777,Pizzas na TAbua Belo Horizonte,Belo Horizonte,Belo Horizonte,MG,Minas Gerais,Sudeste,Sudeste,Lanchonetes,Lanchonetes
+29,64009319372,Lanche RApido e Barato Porto Alegre,Porto Alegre,Porto Alegre,RS,Rio Grande do Sul,Sul,Sul,Lanchonetes,Lanchonetes
+30,64113060797,Dogao e CIA Campo Grande,Campo Grande,Campo Grande,MS,Mato Grosso do Sul,Centro Oeste,Centro Oeste,Lanchonetes,Lanchonetes
+31,66631300720,Tem de Tudo Supermercados Belo Horizonte,Belo Horizonte,Belo Horizonte,MG,Minas Gerais,Sudeste,Sudeste,Supermercados,Supermercados
+32,6964705783,Rede Posto Mania Salvador,Salvador,Salvador,BH,Bahia,Nordeste,Nordeste,Lojas de Conveniencia,Lojas de Conveniencia
+33,7053899799,Rede Drogas Brasil Sao Paulo,Sao Paulo,Sao Paulo,SP,Sao Paulo,Sudeste,Sudeste,FarmAcias,FarmAcias
+34,7129236752,Parnaiba Lanches Campinas,Campinas,Campinas,SP,Sao Paulo,Sudeste,Sudeste,Lanchonetes,Lanchonetes
+35,7150192793,DrogaFast FarmAcias Niteroi,Niteroi,Niteroi,RJ,Rio de Janeiro,Sudeste,Sudeste,FarmAcias,FarmAcias
+36,72629274772,Super Mania Porto Alegre,Porto Alegre,Porto Alegre,RS,Rio Grande do Sul,Sul,Sul,Lanchonetes,Lanchonetes
+37,7317856738,Rede Nacional Postos Campinas,Campinas,Campinas,SP,Sao Paulo,Sudeste,Sudeste,Lojas de Conveniencia,Lojas de Conveniencia
+38,75445719715,Rede Posto Mania Brasilia,Brasilia,Brasilia,DF,Distrito Federal,Centro Oeste,Centro Oeste,Lojas de Conveniencia,Lojas de Conveniencia
+39,76815463753,Rede Posto Mania Campo Grande,Campo Grande,Campo Grande,MS,Mato Grosso do Sul,Centro Oeste,Centro Oeste,Lojas de Conveniencia,Lojas de Conveniencia
+40,77126718772,DrogaFast FarmAcias Rio de Janeiro,Rio de Janeiro,Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,Sudeste,FarmAcias,FarmAcias
+41,77842952787,Tem de Tudo Lojas Brasilia,Brasilia,Brasilia,DF,Distrito Federal,Centro Oeste,Centro Oeste,Lojas de Conveniencia,Lojas de Conveniencia
+42,78623359704,Max Drogas Rio de Janeiro,Rio de Janeiro,Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,Sudeste,FarmAcias,FarmAcias
+43,80683215787,Tem de Tudo Lojas Goiais,Goiais,Goiais,GO,Goiais,Centro Oeste,Centro Oeste,Lojas de Conveniencia,Lojas de Conveniencia
+44,81034342720,Supermercados Bom e Barato Rio de Janeiro,Rio de Janeiro,Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,Sudeste,Supermercados,Supermercados
+45,82236119704,Delicias Lanches Porto Alegre,Porto Alegre,Porto Alegre,RS,Rio Grande do Sul,Sul,Sul,Lanchonetes,Lanchonetes
+46,82393222715,Multi Sucos Curitiba,Curitiba,Curitiba,PR,ParanA,Sul,Sul,Lanchonetes,Lanchonetes
+47,8268254785,Big Super Pizzas Campinas,Campinas,Campinas,SP,Sao Paulo,Sudeste,Sudeste,Lanchonetes,Lanchonetes
+48,84490438753,Rede Drogas Brasil Brasilia,Brasilia,Brasilia,DF,Distrito Federal,Centro Oeste,Centro Oeste,FarmAcias,FarmAcias
+49,8664533776,DrogaFast FarmAcias Porto Alegre,Porto Alegre,Porto Alegre,RS,Rio Grande do Sul,Sul,Sul,FarmAcias,FarmAcias
+50,87549999791,Drogas Super Brasilia,Brasilia,Brasilia,DF,Distrito Federal,Centro Oeste,Centro Oeste,FarmAcias,FarmAcias
+51,887713777,Rainha Supermercados Brasilia,Brasilia,Brasilia,DF,Distrito Federal,Centro Oeste,Centro Oeste,Supermercados,Supermercados
+52,90005511704,Rainha Supermercados Campinas,Campinas,Campinas,SP,Sao Paulo,Sudeste,Sudeste,Supermercados,Supermercados
+53,90830636749,Rede Posto Mania Sao Paulo,Sao Paulo,Sao Paulo,SP,Sao Paulo,Sudeste,Sudeste,Lojas de Conveniencia,Lojas de Conveniencia
+54,91988802768,Rede Posto Mania Curitiba,Curitiba,Curitiba,PR,ParanA,Sul,Sul,Lojas de Conveniencia,Lojas de Conveniencia
+55,9594349760,Rede Nacional Postos Brasilia,Brasilia,Brasilia,DF,Distrito Federal,Centro Oeste,Centro Oeste,Lojas de Conveniencia,Lojas de Conveniencia
+56,9824868712,Rainha Supermercados Salvador,Salvador,Salvador,BH,Bahia,Nordeste,Nordeste,Supermercados,Supermercados
+57,99010968715,Drogas Super Campo Grande,Campo Grande,Campo Grande,MS,Mato Grosso do Sul,Centro Oeste,Centro Oeste,FarmAcias,FarmAcias

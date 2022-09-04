@@ -1,0 +1,17 @@
+Faturamento Líquido = Faturamento - Custo Frete - Imposto
+
+Custo Total = Custo Fixo - Custo Variavel
+
+Margem = Faturamento Líquido - Custo Total
+
+Faturamento Unitário = Faturamento Líquido / Quantidade Vendida
+
+Custo Unitário = Custo Total / Quantidade Vendida
+
+Margem Unitária = Margem / Quantidades Vendida
+
+Variação Meta Faturamento = (((Faturamento Líquido) / (Meta Faturamento)) - 1) * 100
+
+Variação Meta Custo = (((Custo Total) / (Meta Custo)) - 1) * 100
+
+Variação Meta Margem = (((Margem) / (Meta Margem)) - 1) * 100

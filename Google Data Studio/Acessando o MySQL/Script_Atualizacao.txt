@@ -1,0 +1,20 @@
+delete from `sucos`.`fato_presidencia` where ID_Cliente = 58;
+delete from dim_cliente where ID_Cliente = 58;
+insert into dim_cliente values (58, '93323333214', 'Empresa Brasileira de Alimentos','Fortaleza','Fortaleza','CE','Ceará','Nordeste','Nordeste','Supermercados','Supermercados');
+insert into `sucos`.`fato_presidencia`
+SELECT `fato_presidencia`.`ID_Tempo`,
+    `fato_presidencia`.`ID_Fabrica`,
+    `fato_presidencia`.`ID_Vendedor`,
+     58 as `ID_Cliente`,
+    `fato_presidencia`.`ID_Produto`,
+    `fato_presidencia`.`Faturamento`,
+    (FLOOR(RAND() * 110) + 50)/100 * `fato_presidencia`.`Unidade_Vendida` as `Unidade_Vendida`,
+    (FLOOR(RAND() * 110) + 50)/100 * `fato_presidencia`.`Quantidade_Vendida` as `Quantidade_Vendida`,
+    (FLOOR(RAND() * 110) + 50)/100 * `fato_presidencia`.`Imposto` as `Imposto`,
+    (FLOOR(RAND() * 110) + 50)/100 * `fato_presidencia`.`Custo_Variavel` as `Custo_Variavel`,
+    (FLOOR(RAND() * 110) + 50)/100 * `fato_presidencia`.`Custo_Frete` as `Custo_Frete`,
+    (FLOOR(RAND() * 110) + 50)/100 * `fato_presidencia`.`Custo_Fixo` as `Custo_Fixo`,
+    (FLOOR(RAND() * 110) + 50)/100 * `fato_presidencia`.`Meta_Faturamento` as `Meta_Faturamento`,
+    (FLOOR(RAND() * 110) + 50)/100 * `fato_presidencia`.`Meta_Custo` as `Meta_Custo`
+FROM `sucos`.`fato_presidencia`
+WHERE ID_Cliente = 8;

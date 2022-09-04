@@ -1,0 +1,9 @@
+function refreshCases(){
+    $(".gmat-button.mat-focus-indicator.mat-tooltip-trigger.mat-stroked-button.mat-button-base").click(); 
+    setTimeout(function(){
+        refreshCases();
+    },10000) 
+}
+refreshCases();
+
+

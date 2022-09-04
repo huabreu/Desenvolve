@@ -1,0 +1,36 @@
+ID_Produto,Cod_Produto,Desc_Produto,Cod_Marca,Atr_Tamanho,Atr_Sabor,Cod_Categoria,Desc_Marca,Desc_Categoria
+1,1002334,Linha Citros - 1 Litro - Lima/Limao,Linha Citros,1 Litro,Lima/Limao,Aguas Minerais,Linha Citros,Aguas Minerais
+2,1041119,Linha Citros - 700 ml - Lima/Limao,Linha Citros,700 ml,Lima/Limao,Aguas Minerais,Linha Citros,Aguas Minerais
+3,1042712,Linha Citros - 700 ml - Limao,Linha Citros,700 ml,Limao,Aguas Minerais,Linha Citros,Aguas Minerais
+4,1088126,Linha Citros - 1 Litro - Limao,Linha Citros,1 Litro,Limao,Aguas Minerais,Linha Citros,Aguas Minerais
+5,1086543,Linha Refrescante - 1 Litro - Manga,Linha Refrescante,1 Litro,Manga,Aguas Minerais,Linha Refrescante,Aguas Minerais
+6,1096818,Linha Refrescante - 700 ml - Manga,Linha Refrescante,700 ml,Manga,Aguas Minerais,Linha Refrescante,Aguas Minerais
+7,1101035,Linha Refrescante - 1 Litro - Morango/Limao,Linha Refrescante,1 Litro,Morango/Limao,Aguas Minerais,Linha Refrescante,Aguas Minerais
+8,326779,Linha Refrescante - 1,5 Litros - Manga,Linha Refrescante,1,5 Litros,Manga,Aguas Minerais
+9,826490,Linha Refrescante - 700 ml - Morango/Limao,Linha Refrescante,700 ml,Morango/Limao,Aguas Minerais,Linha Refrescante,Aguas Minerais
+10,1000889,Sabor da Montanha - 700 ml - Uva,Sabor da Montanha,700 ml,Uva,Aguas Minerais,Sabor da Montanha,Aguas Minerais
+11,394479,Sabor da Montanha - 700 ml - Cereja,Sabor da Montanha,700 ml,Cereja,Aguas Minerais,Sabor da Montanha,Aguas Minerais
+12,783663,Sabor da Montanha - 700 ml - Morango,Sabor da Montanha,700 ml,Morango,Aguas Minerais,Sabor da Montanha,Aguas Minerais
+13,1051518,Frescor do Verao - 470 ml - Limao,Frescor do Verao,470 ml,Limao,Mate,Frescor do Verao,Mate
+14,1078680,Frescor do Verao - 470 ml - Manga,Frescor do Verao,470 ml,Manga,Mate,Frescor do Verao,Mate
+15,235653,Frescor do Verao - 350 ml - Manga,Frescor do Verao,350 ml,Manga,Mate,Frescor do Verao,Mate
+16,544931,Frescor do Verao - 350 ml - Limao,Frescor do Verao,350 ml,Limao,Mate,Frescor do Verao,Mate
+17,1037797,Clean - 2 Litros - Laranja,Clean,2 Litros,Laranja,Suco de Frutas,Clean,Suco de Frutas
+18,479745,Clean - 470 ml - Laranja,Clean,470 ml,Laranja,Suco de Frutas,Clean,Suco de Frutas
+19,773912,Clean - 1 Litro - Laranja,Clean,1 Litro,Laranja,Suco de Frutas,Clean,Suco de Frutas
+20,812829,Clean - 350 ml - Laranja,Clean,350 ml,Laranja,Suco de Frutas,Clean,Suco de Frutas
+21,838819,Clean - 1,5 Litros - Laranja,Clean,1,5 Litros,Laranja,Suco de Frutas
+22,1022450,Festival de Sabores - 2 Litros - Acai,Festival de Sabores,2 Litros,Acai,Suco de Frutas,Festival de Sabores,Suco de Frutas
+23,231776,Festival de Sabores - 700 ml - Acai,Festival de Sabores,700 ml,Acai,Suco de Frutas,Festival de Sabores,Suco de Frutas
+24,243083,Festival de Sabores - 1,5 Litros - Maracuja,Festival de Sabores,1,5 Litros,Maracuja,Suco de Frutas
+25,695594,Festival de Sabores - 1,5 Litros - Acai,Festival de Sabores,1,5 Litros,Acai,Suco de Frutas
+26,723457,Festival de Sabores - 700 ml - Maracuja,Festival de Sabores,700 ml,Maracuja,Suco de Frutas,Festival de Sabores,Suco de Frutas
+27,1040107,Light - 350 ml - Melancia,Light,350 ml,Melancia,Suco de Frutas,Light,Suco de Frutas
+28,746596,Light - 1,5 Litros - Melancia,Light,1,5 Litros,Melancia,Suco de Frutas
+29,229900,Pedacos de Frutas - 350 ml - Maca,Pedacos de Frutas,350 ml,Maca,Suco de Frutas,Pedacos de Frutas,Suco de Frutas
+30,520380,Pedacos de Frutas - 1 Litro - Maca,Pedacos de Frutas,1 Litro,Maca,Suco de Frutas,Pedacos de Frutas,Suco de Frutas
+31,788975,Pedacos de Frutas - 1,5 Litros - Maca,Pedacos de Frutas,1,5 Litros,Maca,Suco de Frutas
+32,1002767,Videira do Campo - 700 ml - Cereja/Maca,Videira do Campo,700 ml,Cereja/Maca,Suco de Frutas,Videira do Campo,Suco de Frutas
+33,1004327,Videira do Campo - 1,5 Litros - Melancia,Videira do Campo,1,5 Litros,Melancia,Suco de Frutas
+34,1013793,Videira do Campo - 2 Litros - Cereja/Maca,Videira do Campo,2 Litros,Cereja/Maca,Suco de Frutas,Videira do Campo,Suco de Frutas
+35,290478,Videira do Campo - 350 ml - Melancia,Videira do Campo,350 ml,Melancia,Suco de Frutas,Videira do Campo,Suco de Frutas
