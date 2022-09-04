@@ -1,0 +1,68 @@
+[
+ {
+   "description": "Identificador do Cliente",
+   "name": "ID_CLIENTE",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "Código do Cliente",
+   "name": "COD_CLIENTE",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "Descritor do Cliente",
+   "name": "DESC_CLIENTE",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "Código da Cidade",
+   "name": "COD_CIDADE",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "Descritor da Cidade",
+   "name": "DESC_CIDADE",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "Código do Estado",
+   "name": "COD_ESTADO",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "Descritor do Estado",
+   "name": "DESC_ESTADO",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "Código da Região",
+   "name": "COD_REGIAO",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "Descritor da Região",
+   "name": "DESC_REGIAO",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "Código do Segmento",
+   "name": "COD_SEGMENTO",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "Descritor do Segmento",
+   "name": "DESC_SEGMENTO",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ }
+]
